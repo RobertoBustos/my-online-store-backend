@@ -11,7 +11,8 @@
     "dev": "tsx watch src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "db:verify": "tsx src/context/verifyConnection.ts"
   },
   "keywords": [],
   "author": "",
